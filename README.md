@@ -19,14 +19,35 @@ Projekt für Test im UI Modul
 ![](drafts/desktop.JPG)
 ![](drafts/desktop-button-hover.JPG)
 
-###   __/60 Punkten
+###   5/60 Punkten
 #### Punktabzüge für:
-- [_] (10) Elemente passen sich nicht an Fensterbreite an
-- [_] (10) Tags nicht geschlossen oder falsch verschachtelt
-- [_] (5) Block-Tag in Inline-Tag
-- [_] (5) Kinder-Tags im Code nicht eingerückt
-- [_] (10) Zweckfremde Tags verwendet
+- [x] (10) Elemente passen sich nicht an Fensterbreite an
+```diff
+- Das Formularfeld für Nachname springt bei vielen Fensterbreite nach rechts.
+```
+- [x] (10) Tags nicht geschlossen oder falsch verschachtelt
+```diff
+- row und col sind falsch verschachtelt. Inhalt darf nur in col stehen. col muss in row verschachtelt sein.
+```
+- [x] (5) Block-Tag in Inline-Tag
+```diff
+- aside in button (Zeile 110)
+```
+- [x] (5) Kinder-Tags im Code nicht eingerückt
+```diff
+- Ab Zeile 82 ist unklar, was Kinder und was Eltern sind
+```
+- [x] (10) Zweckfremde Tags verwendet
+```diff
+- aside für inline-Text verwendet
+```
 - [_] (10) Fehlende essetielle Tags (z.B. Meta-Tags)
 - [_] (5) Falsche Datei-Pfade
-- [_] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
-- [_] (5) Fehlende essentielle Tag-Attribute
+- [x] (10) CSS-Selektoren, die bei Änderungen im HTML sehr leicht fehlschlagen können
+```diff
+- font-Styles im *-Selektor sollten nicht verwendet werden
+```
+- [x] (5) Fehlende essentielle Tag-Attribute
+```diff
+- In button kann im type-Attribut nicht der Wert "bottum" verwendet werden
+```
