@@ -1,0 +1,105 @@
+* {
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Gotham Rounded";
+  background: url(images/bg.jpg);
+}
+
+.p {
+  color: #8015d8;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.w {
+  flex-direction: row;
+}
+
+.text {
+  color: #d3e24c;
+}
+
+.text1 {
+  font-weight: 800;
+  font-size: large;
+}
+
+.text2 {
+  font-weight: 100;
+  font-size: small;
+}
+
+.inhalts {
+  color: #0eeed0;
+}
+
+.container-fluid {
+  background-color: seashell;
+  font-weight: 80px;
+  margin: 20px;
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 10px grey;
+  width: 100vw;
+  height: 90px;
+}
+
+.bottum:before {
+  color: yellow;
+  background: #8015d8;
+}
+
+.bottum:hover {
+  color: #8015d8;
+  background: yellow;
+}
+
+.bottum:after {
+  color: #8015d8;
+  background: yellow;
+}
+
+.container-main {
+  background-color: seashell;
+  font-weight: 80px;
+  margin: 40px;
+  padding: 10px;
+}
+
+.panel {
+  color: #70ec1d;
+}
+
+.panel1 {
+  color: #eaee0c;
+}
+
+.panel2 {
+  color: #ebc416;
+}
+
+.panel3 {
+  color: #31e9ca;
+}
+
+.panel4 {
+  color: #eb6161;
+}
+
+/*# sourceMappingURL=index.css.map */

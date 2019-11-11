@@ -1,0 +1,90 @@
+
+
+
+* {
+    font-weight: bold ;
+    font-style: normal;
+    font-family:'Gotham Rounded';
+    background: url(images/bg.jpg);
+}
+.p {
+    color: rgb(128, 21, 216);
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.w {
+    flex-direction: row;
+}
+.text {
+    color: rgb(211, 226, 76);
+}
+.text1 {
+    font-weight: 800;
+    font-size: large;
+}
+.text2 {
+    font-weight: 100;
+    font-size: small;
+}
+.inhalts {
+    color: rgb(14, 238, 208);
+}
+.container-fluid {
+    background-color: seashell;
+    font-weight: 80px;
+    margin:20px;
+    padding:5px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:0px 5px 10px grey;
+    width: 100vw;
+    height: 90px;
+}
+
+.bottum:before {
+        color:yellow;
+        background:rgb(128, 21, 216);
+    }
+.bottum:hover {
+    color:rgb(128, 21, 216);
+    background:yellow;
+}
+.bottum:after {
+    color:rgb(128, 21, 216);
+    background:yellow;
+}
+
+
+.container-main {
+    background-color: seashell;
+    font-weight: 80px;
+    margin:40px;
+    padding:10px;
+}
+.panel {
+    color: rgb(112, 236, 29);
+ }
+.panel1 {
+    color: rgb(234, 238, 12);
+ }
+.panel2 {
+    color: rgb(235, 196, 22);
+ }
+.panel3 {
+    color: rgb(49, 233, 202);
+ }
+.panel4 {
+   color: rgb(235, 97, 97);
+}
